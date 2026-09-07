@@ -77,7 +77,7 @@
       },
       "platform": [],
       "metadata": {
-        "generatedBy": "apps/scripts/initialize-sdkwork-app-standard-v3.mjs"
+        "generatedPlaceholder": true
       }
     },
     "screenshots": [
@@ -188,7 +188,10 @@
           "checksum": "0fe6d0dc0fe6d0dc0fe6d0dc0fe6d0dc0fe6d0dc0fe6d0dc0fe6d0dc0fe6d0dc",
           "architecture": "universal",
           "deploymentProfile": "cloud",
-          "runtimeTarget": "browser"
+          "runtimeTarget": "browser",
+          "profileBinding": "fixed",
+          "targetPlatform": "web",
+          "clientArchitecture": "pc-web"
         },
         {
           "id": "windows-x64-standalone-desktop-zip",
@@ -203,7 +206,10 @@
           "checksumAlgorithm": "SHA-256",
           "checksum": "22b0df0822b0df0822b0df0822b0df0822b0df0822b0df0822b0df0822b0df08",
           "deploymentProfile": "standalone",
-          "runtimeTarget": "desktop"
+          "runtimeTarget": "desktop",
+          "profileBinding": "fixed",
+          "targetPlatform": "windows",
+          "clientArchitecture": "tauri"
         },
         {
           "id": "macos-universal-standalone-desktop-dmg",
@@ -218,7 +224,10 @@
           "checksumAlgorithm": "SHA-256",
           "checksum": "d62e3538d62e3538d62e3538d62e3538d62e3538d62e3538d62e3538d62e3538",
           "deploymentProfile": "standalone",
-          "runtimeTarget": "desktop"
+          "runtimeTarget": "desktop",
+          "profileBinding": "fixed",
+          "targetPlatform": "macos",
+          "clientArchitecture": "tauri"
         },
         {
           "id": "linux-x64-standalone-desktop-appimage",
@@ -237,7 +246,10 @@
           "checksumAlgorithm": "SHA-256",
           "checksum": "d623eab9d623eab9d623eab9d623eab9d623eab9d623eab9d623eab9d623eab9",
           "deploymentProfile": "standalone",
-          "runtimeTarget": "desktop"
+          "runtimeTarget": "desktop",
+          "profileBinding": "fixed",
+          "targetPlatform": "linux",
+          "clientArchitecture": "tauri"
         }
       ],
       "metadata": {
